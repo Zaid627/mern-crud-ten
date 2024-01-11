@@ -7,10 +7,12 @@ import cors from 'cors';
 import Routes from './routes/route.js';
 import Connection from './database/db.js';
 
+dotenv.config();
+
 const app = express();
 
 
-dotenv.config();
+//dotenv.config();
 
 // To handle HTTP POST requests in Express.js version 4 and above, 
 // you need to install the middleware module called body-parser.
